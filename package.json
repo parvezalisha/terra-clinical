@@ -37,6 +37,7 @@
     "clean:install": "npm run clean:all && npm install",
     "clean:obsolete-snapshots": "npm test -- -u",
     "compile": "lerna run compile",
+    "compile:translations": "babel aggregated-translations --out-dir aggregated-translations-lib --copy-files",
     "compile:prod": "webpack --config node_modules/terra-dev-site/config/webpack/webpack.config.js -p",
     "danger": "danger ci",
     "deploy": "npm run compile:prod && gh-pages -d build",
@@ -89,7 +90,7 @@
     "shelljs": "^0.8.2",
     "stylelint": "^9.2.0",
     "stylelint-config-terra": "^1.0.0",
-    "terra-dev-site": "^2.0.0",
-    "terra-toolkit": "^4.16.0"
+    "terra-dev-site": "git://github.com/cerner/terra-dev-site.git#verify-compiled-agg-trans",
+    "terra-toolkit": "git://github.com/cerner/terra-toolkit.git#aggregate-trans-compiled"
   }
 }

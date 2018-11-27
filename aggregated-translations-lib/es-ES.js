@@ -11,7 +11,9 @@ var _es = require('react-intl/locale-data/es');
 
 var _es2 = _interopRequireDefault(_es);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _reactIntl.addLocaleData)(_es2.default);
 
@@ -49,34 +51,34 @@ var messages = {
   "Terra.form.field.optional": "(opcional)",
   "Terra.menu.back": "Atrás",
   "Terra.menu.close": "Cerrar",
-  "Terra.onsetPicker.agePrecisionMonth": "Month(s)",
-  "Terra.onsetPicker.agePrecisionWeek": "Week(s)",
-  "Terra.onsetPicker.agePrecisionYear": "Year(s)",
-  "Terra.onsetPicker.april": "April",
-  "Terra.onsetPicker.august": "August",
-  "Terra.onsetPicker.december": "December",
-  "Terra.onsetPicker.february": "February",
-  "Terra.onsetPicker.granularityAge": "Age",
-  "Terra.onsetPicker.granularityDate": "Date",
-  "Terra.onsetPicker.granularityMonth": "Month",
-  "Terra.onsetPicker.granularityYear": "Year",
-  "Terra.onsetPicker.january": "January",
-  "Terra.onsetPicker.july": "July",
-  "Terra.onsetPicker.june": "June",
-  "Terra.onsetPicker.march": "March",
-  "Terra.onsetPicker.may": "May",
-  "Terra.onsetPicker.november": "November",
-  "Terra.onsetPicker.october": "October",
-  "Terra.onsetPicker.precisionAbout": "About",
-  "Terra.onsetPicker.precisionAfter": "After",
-  "Terra.onsetPicker.precisionBefore": "Before",
-  "Terra.onsetPicker.precisionOnAt": "On/At",
-  "Terra.onsetPicker.precisionUnknown": "Unknown",
-  "Terra.onsetPicker.september": "September",
+  "Terra.onsetPicker.agePrecisionMonth": "Meses",
+  "Terra.onsetPicker.agePrecisionWeek": "Semanas",
+  "Terra.onsetPicker.agePrecisionYear": "Años",
+  "Terra.onsetPicker.april": "Abril",
+  "Terra.onsetPicker.august": "Agosto",
+  "Terra.onsetPicker.december": "Diciembre",
+  "Terra.onsetPicker.february": "Febrero",
+  "Terra.onsetPicker.granularityAge": "Edad",
+  "Terra.onsetPicker.granularityDate": "Fecha",
+  "Terra.onsetPicker.granularityMonth": "Mes",
+  "Terra.onsetPicker.granularityYear": "Año",
+  "Terra.onsetPicker.january": "Enero",
+  "Terra.onsetPicker.july": "Julio",
+  "Terra.onsetPicker.june": "Junio",
+  "Terra.onsetPicker.march": "Marzo",
+  "Terra.onsetPicker.may": "Mayo",
+  "Terra.onsetPicker.november": "Noviembre",
+  "Terra.onsetPicker.october": "Octubre",
+  "Terra.onsetPicker.precisionAbout": "Acerca de",
+  "Terra.onsetPicker.precisionAfter": "Después",
+  "Terra.onsetPicker.precisionBefore": "Antes",
+  "Terra.onsetPicker.precisionOnAt": "el/a las",
+  "Terra.onsetPicker.precisionUnknown": "Desconocido",
+  "Terra.onsetPicker.september": "Septiembre",
   "Terra.Overlay.loading": "Cargando..."
 };
 var areTranslationsLoaded = true;
-var locale = 'es-US';
+var locale = 'es-ES';
 exports.areTranslationsLoaded = areTranslationsLoaded;
 exports.locale = locale;
 exports.messages = messages;
